@@ -1,6 +1,6 @@
 import React from 'react';
 import { capitalizeFirstLetter } from "../../utils/helpers";
-
+import Resume from '../Resume'
 
 function Nav(props) {
     const {
@@ -37,8 +37,8 @@ function Nav(props) {
                 
                 ))}
                 <li>
-                    Resume
-                </li>
+                    <Resume />
+                </li> 
             </ul>
         </nav>
     )

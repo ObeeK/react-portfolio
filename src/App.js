@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import CurrentPage from './components/Current';
+import Footer from './components/Footer';
+import Resume from './components/Resume';
 
 function App() {
     const [categories] = useState([
@@ -22,6 +24,7 @@ function App() {
           <CurrentPage
           currentCategory={currentCategory}></CurrentPage>
         </main>
+        <Footer />
       </div>
     );
   }
